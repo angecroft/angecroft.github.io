@@ -1,29 +1,5 @@
 {
-	"works":{
-		"CINEVR":
-		{
-			"id":1,
-			"name":"CINEVR",
-			"categorie":["website"],
-			"last":"1 year",
-			"size":"medium",
-			"video":"./videos/IveSD.mp4",
-			"images":[
-				"img/projects/ive.png",
-				"img/projects/ive_tree1.jpg",
-				"img/projects/ive_tree2.jpg"
-				],
-			"tags":[
-				"PHP5",
-				"xHTML",
-				"XML",
-				"CSS",
-				"Javascript",
-				"Photoshop",
-				"Illustrator"
-			],
-			"desc":"This social network was developed in DUT (MMI/SRC) for my final project study. The proposed community site will aim to allow for more curious, sharing advice and information on a particular area of ​​interest. It will be self-managed by its members and will propose the creation of pages with many and varied interests. Everyone's curiosity will drive this company of shared knowledge. It will bring users to discover what they do not know yet, and accelerate the exchange and discovery."
-		},
+	"works":{		
 		"La-Fille":
 		{
 			"id":2,
@@ -127,24 +103,27 @@
 			],
 			"desc":"Wake Up is a puzzle / adventure 3D side scrolling game. It's a student prototype realized with Unreal Engine 4 and LeapMotion to controls."
 		},
-		"Django":
+		"CINEVR":
 		{
-			"id":7,
-			"name":"Django",
-			"categorie":["videogame", "application"],
-			"last":"more than 1 year",
-			"size":"large",
-			"video":"./videos/DjangoSD.mp4",
+			"id":1,
+			"name":"CINEVR",
+			"categorie":["development", "3D", "VR"],
+			"last":"1 year",
+			"size":"medium",
+			"video":"./videos/IveSD.mp4",
 			"images":[
-				"img/projects/django01.png"
+				"img/projects/ive.png"
 				],
 			"tags":[
-				"C",
-				"Uengine",
-				"GameDesign",
-				"Mobile"
+				"VR",
+				"Unity5",
+				"GearVR",
+				"Cardboard",
+				"Substance Painter",
+				"3DCoat",
+				"Network"
 			],
-			"desc":"Django (Endless runner and Shoot’em up). This game was named best mobile game in Game Connection America 2014 : http://goo.gl/UTFvTK. I worked on the user interface and the gameplay. I created a popups system and realised animations with particles. I also worked on the weapons and the bullets."
+			"desc":"I am currently working on CINEVR, an experience which allows you to play videos in a virtual reality cinema."
 		}
 	}
 }
