@@ -1,112 +1,25 @@
 {
-	"works":{		
-		"La-Fille":
-		{
-			"id":2,
-			"name":"La Fille",
-			"categorie":["design"],
-			"last":"6 months",
-			"size":"medium",
-			"video":"./videos/TeaserBlueHD.mp4",
-			"images":[
-				"img/projects/LaFille.jpg",
-				"img/projects/LaFille1.jpg"
-				],
-			"tags":[
-				"After Effects",
-				"Premiere Pro",
-				"Illustrator",
-				"Photoshop"
-			],
-			"desc":"Creation and staging of an Opera pop from the comic strip 'La FIlle' of Christophe Blain. I essentially work on video compositing and video mapping. You can see the show from Friday, March 14 at 'La Ferme du buisson'. see more at http://www.franceinter.fr/depeche-la-fille-monte-sur-scene-avec-barbara-carlotti"
-		},
-		"Imac-Tower-Defense":
-		{
-			"id":3,
-			"name":"Imac Tower Defense",
-			"categorie":["videogame"],
-			"last":"1 month",
-			"size":"medium",
-			"video":"./videos/ImacTowerDefenseHD.mp4",
-			"images":[
-				"img/projects/miniImacTowerDefense.jpg",
-				"img/projects/ImacTowerDefense1.jpg",
-				"img/projects/ImacTowerDefense2.jpg"
-				],
-			"tags":[
-				"C",
-				"OpenGL2",
-				"GUI (AntTweakBar)"
-			],
-			"desc":"Imac tower defense is a 2D game where you have to defend yourself against several monsters. The more you kill monsters the more you earn money to buy more powerful towers. This game was developed in C with a library GUI named AntTweakBar. I tried to get closer the MVC design pattern to this game by taking into account the constraints of C language. In this game, we have many objects, attributes and behavior which are managed with maths in 2D for the monsters and the towers."
-		},
-		"Tetraword":
-		{
-			"id":4,
-			"name":"Tetraword",
-			"categorie":["videogame", "application"],
-			"last":"1 month",
-			"size":"medium",
-			"images":[
-				"img/projects/miniTetraword.jpg",
-				"img/projects/accueilTetraword.jpg",
-				"img/projects/jeuTetraword.jpg",
-				"img/projects/anagrammeTetraword.jpg"
-				],
-			"tags":[
-				"JAVA",
-				"Android",
-				"Mobile"
-			],
-			"desc":"Tetraword is a game based on famous Tetris. It is made with a simple game loop and the android framework. The goal of this game is to delete the lines like in the classic tetris but with words combinations."
-		},
-		"Imakart":
-		{
-			"id":5,
-			"name":"Imakart",
-			"categorie":["videogame"],
-			"last":"3 weeks",
-			"size":"large",
-			"images":[
-				"img/projects/miniImakart.jpg",
-				"img/projects/imakart02.png",
-				"img/projects/imakart03.png",
-				"img/projects/imakart04.png",
-				"img/projects/imakart05.png"
-				],
-			"tags":[
-				"C++",
-				"OpenGL3",
-				"GLSL",
-				"Bullet",
-				"GameDesign"
-			],
-			"desc":"It's a car racing game (a king of MarioKart) where you have to beat the other cars controlled by an artificial intelligence that I realiazed. You have the choice between 3 ambiances like country, or mountain. For the moment you can choose 4 cars. This game was developed by a team of 6 people in 3 weeks. I have also implemented the physics interactions between every component using the physic library Bullet. The rendering engine has been done with OpenGL 3. The main difficulty we faced was to create a spherical world. Why a sperical world ? Because we thought it was cool and it was a challenge for us."
-		},
-		"Wake-up":
-		{
-			"id":6,
-			"name":"Wake up",
-			"categorie":["videogame"],
-			"last":"in progress",
-			"size":"large",
-			"images":[
-				"img/projects/wakeup01.png",
-				"img/projects/wakeup02.png",
-				"img/projects/wakeup03.png",
-				"img/projects/wakeup04.png"
-				],
-			"tags":[
-				"C++",
-				"Unreal Engine",
-				"GameDesign"
-			],
-			"desc":"Wake Up is a puzzle / adventure 3D side scrolling game. It's a student prototype realized with Unreal Engine 4 and LeapMotion to controls."
-		},
-		"CINEVR":
+	"works":{
+		"IMAC Tower Defense":
 		{
 			"id":1,
-			"name":"CINEVR",
+			"name":"Oeil de Lynx",
+			"categorie":["development", "3D", "VR"],
+			"last":"1 year",
+			"video":"",
+			"images":[],
+			"tags":[
+				"Gameplay",
+				"Unity",
+				"Eye Tracking"
+			],
+			"desc":"I am currently working on CINEVR, an experience which allows you to play videos in a virtual reality cinema.", 
+			"long_desc": "Within the technical pole of Streetlab, I realized my missions in great autonomy. My missions : Creation of two games for the Futuroscope park. Creation of the gameplay, 2D animations, scenario, cross-platform game (Windows computer and Android tablets), use of eye trackers."
+		},		
+		"Oeil de Lynx":
+		{
+			"id":1,
+			"name":"Oeil de Lynx",
 			"categorie":["development", "3D", "VR"],
 			"last":"1 year",
 			"size":"medium",
@@ -114,6 +27,70 @@
 			"images":[
 				"img/projects/ive.png"
 				],
+			"tags":[
+				"Gameplay",
+				"Unity",
+				"Eye Tracking"
+			],
+			"desc":"I am currently working on CINEVR, an experience which allows you to play videos in a virtual reality cinema.", 
+			"long_desc": "Within the technical pole of Streetlab, I realized my missions in great autonomy. My missions : Creation of two games for the Futuroscope park. Creation of the gameplay, 2D animations, scenario, cross-platform game (Windows computer and Android tablets), use of eye trackers."
+		},		
+		"Detroit":
+		{
+			"id":1,
+			"name":"Detroit",
+			"categorie":["development", "3D"],
+			"last":"6 months",
+			"images":[],
+			"tags":[
+				"Gameplay",
+				"Engine",
+				"Animation",
+				"Camera"
+			],
+			"desc":"I am currently working on CINEVR, an experience which allows you to play videos in a virtual reality cinema.", 
+			"long_desc": "I created a camera like the one used in the Maya software. I have implemented some nodes in the animation engine. Finally, I have worked on some gameplay.",
+			"recommendations":
+			{
+				"Nicolas Holleville":
+				{
+					"name": "Nicolas Holleville",
+					"position": "Lead Programmer at Quantic Dream",
+					"text": "J'ai eu la chance d'encadrer Angéline dans le cadre de l'implémentation de prototypes gameplay pour un projet en cours de pré-production. </br> Elle a parfaitement su comprendre les problématiques du jeu, et proposer des solutions viables, répondant aux contraintes que lui imposaient les designers. Sa polyvalence lui permet dès à présent d'appréhender les problématiques propres aux différents métiers mis en œuvre dans le cadre de la production de jeux vidéo, et de proposer des solutions viables dans un contexte concret. </br> Dynamique, investie, et capable de livrer du code robuste et évolutif, elle représentera un atout pour toute équipe de développement.."
+				},
+				"Jerome Jany":
+				{
+					"name": "Jerome Jany",
+					"position": "Animation Programmer at Quantic Dream",
+					"text": "Angéline helped me improve the animation system related to character locomotion. She produced very good features, immediately usable in the final product. </br> Always willing to give the best result, she is also a very kind person to work with. Last but not least, she is also eager to learn, aiming at developing her skills in a lot of domains. </br> Definitely a great asset to have on a project."
+				}				
+			}
+		},		
+		"InsEyed":
+		{
+			"id":1,
+			"name":"InsEyed",
+			"categorie":["development", "3D", "VR"],
+			"last":"4 months",
+			"video":"",
+			"images":[],
+			"tags":[
+				"AR",
+				"Unity5",
+				"zSpace",
+				"UX Design"
+			],
+			"desc":"I am currently working on CINEVR, an experience which allows you to play videos in a virtual reality cinema.", 
+			"long_desc": "Application made with Unity 5 in Augmented Reality with the technology zSpace. On this project I have programmed in C# and also participated in the UX design. This experience shows to the students how the vision is working and which are the visual impairment."
+		},		
+		"CINEVR":
+		{
+			"id":1,
+			"name":"CINEVR",
+			"categorie":["development", "3D", "VR"],
+			"last":"1 year",
+			"video":"",
+			"images":[],
 			"tags":[
 				"VR",
 				"Unity5",
@@ -123,7 +100,28 @@
 				"3DCoat",
 				"Network"
 			],
-			"desc":"I am currently working on CINEVR, an experience which allows you to play videos in a virtual reality cinema."
+			"desc":"I am currently working on CINEVR, an experience which allows you to play videos in a virtual reality cinema.", 
+			"long_desc": "CINEVR is an experience which allows you to play videos in a virtual reality cinema. Development of the CINEVR application with Unity 5 (GearVR & Android cardboard). Realization of 3D and 2D assets in 3D Coat, Modo and Substance Painter. Implementation of a multiplayer network with Photon PUN."
+		},
+		"FnacPlay VR":
+		{
+			"id":1,
+			"name":"FnacPlay VR",
+			"categorie":["development", "3D", "VR"],
+			"last":"1 months",
+			"video":"",
+			"images":[],
+			"tags":[
+				"VR",
+				"Unity5",
+				"GearVR",
+				"Cardboard",
+				"Substance Painter",
+				"3DCoat",
+				"Network"
+			],
+			"desc":"I am currently working on CINEVR, an experience which allows you to play videos in a virtual reality cinema.",
+			"long_desc":""
 		}
 	}
 }
