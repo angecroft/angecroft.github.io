@@ -2,54 +2,56 @@
 	"works":{
 		"IMAC Tower Defense":
 		{
-			"id":1,
-			"name":"Oeil de Lynx",
-			"categorie":["development", "3D", "VR"],
-			"last":"1 year",
-			"video":"",
+			"name":"IMAC Tower Defense",
+			"position":"Gameplay & UI Developer",
+			"year": "2013",
+			"last":"4 months",
+			"video":"./videos/Imac Tower Defense.mp4",
 			"images":[],
 			"tags":[
 				"Gameplay",
-				"Unity",
-				"Eye Tracking"
+				"UI",
+				"C",
+				"OpenGL2"
 			],
-			"desc":"I am currently working on CINEVR, an experience which allows you to play videos in a virtual reality cinema.", 
-			"long_desc": "Within the technical pole of Streetlab, I realized my missions in great autonomy. My missions : Creation of two games for the Futuroscope park. Creation of the gameplay, 2D animations, scenario, cross-platform game (Windows computer and Android tablets), use of eye trackers."
+			"desc":"A 2D classic Tower Defense game. You are attack by monsters stronger and stronger and have to defend yourself.", 
+			"long_desc": "Imac Tower Defense is a 2D game where you have to defend yourself against several monsters. The more you kill monsters the more you earn money to buy more powerful towers. Imac Tower Defense was developed by a team of 2 people during one month. This game was developed in C with a GUI library named AntTweakBar. I tried to implement the MVC design pattern to this game. This was one of my first project realized my first year at IMAC school of engineering."
 		},		
 		"Oeil de Lynx":
 		{
-			"id":1,
 			"name":"Oeil de Lynx",
-			"categorie":["development", "3D", "VR"],
-			"last":"1 year",
+			"position": "Unity Gameplay Developer",
+			"year": "2014",
+			"last":"3 months",
 			"size":"medium",
-			"video":"./videos/IveSD.mp4",
-			"images":[
-				"img/projects/ive.png"
-				],
+			"video":"./videos/Oeil de Lynx.mp4",
+			"images":[],
 			"tags":[
 				"Gameplay",
+				"2D Animations",
 				"Unity",
-				"Eye Tracking"
+				"C#"
 			],
-			"desc":"I am currently working on CINEVR, an experience which allows you to play videos in a virtual reality cinema.", 
-			"long_desc": "Within the technical pole of Streetlab, I realized my missions in great autonomy. My missions : Creation of two games for the Futuroscope park. Creation of the gameplay, 2D animations, scenario, cross-platform game (Windows computer and Android tablets), use of eye trackers."
+			"desc":"This game will be released at the attraction park Futuroscope. You have to spot the difference on a touch terminal.", 
+			"long_desc": "Spot the differences is a game that I realized during my 3 months internship at Streetlab. It is released and available at the Futuroscope attraction park. The aim of this game is to sensitize people to the visually impaired. The player has only two minutes to spot the seven differences with a scotoma on the left image. I used Unity to make this game and it is compatible with Windows (on a computer) and some Android tablets. Within the technical pole of Streetlab, I realized my missions in great autonomy. I was in charge of the game development and the 2D animations."
 		},		
 		"Detroit":
 		{
-			"id":1,
 			"name":"Detroit",
-			"categorie":["development", "3D"],
+			"position": "Gameplay & Engine developer",
+			"year": "2015",
 			"last":"6 months",
 			"images":[],
 			"tags":[
 				"Gameplay",
 				"Engine",
-				"Animation",
-				"Camera"
+				"3D Animation",
+				"Camera",
+				"C++",
+				"Perforce"
 			],
-			"desc":"I am currently working on CINEVR, an experience which allows you to play videos in a virtual reality cinema.", 
-			"long_desc": "I created a camera like the one used in the Maya software. I have implemented some nodes in the animation engine. Finally, I have worked on some gameplay.",
+			"desc":"Detroit is the next production of the Quantic Dream studio, creator of Heavy Rain and Beyond : Two souls. I had the chance to work on it and its game engine.", 
+			"long_desc": "I have coded in C++ a new camera which is already released on production. It is a camera like the Autodesk Maya one. The camera can rotate around a picked object, change the target and turn on itself. I have used matrix operations and raycasts to do this task. I have also worked on some new nodes on the animation system related to character locomotion. I have used quaternion operations for this task. Finally, I have created a prototype related to the future game of Quantic Dream. I have implemented a drone manager and drone behaviors. I have used an AI pathfinding, a state machine and matrix operations. During this internship I worked closely to the game designers.",
 			"recommendations":
 			{
 				"Nicolas Holleville":
@@ -68,26 +70,27 @@
 		},		
 		"InsEyed":
 		{
-			"id":1,
 			"name":"InsEyed",
-			"categorie":["development", "3D", "VR"],
+			"position": "Unity Developer",
+			"year": "2015/2016",
 			"last":"4 months",
-			"video":"",
+			"video":"./videos/Inseyed.mp4",
 			"images":[],
 			"tags":[
 				"AR",
 				"Unity5",
+				"C#",
 				"zSpace",
 				"UX Design"
 			],
-			"desc":"I am currently working on CINEVR, an experience which allows you to play videos in a virtual reality cinema.", 
+			"desc":"", 
 			"long_desc": "Application made with Unity 5 in Augmented Reality with the technology zSpace. On this project I have programmed in C# and also participated in the UX design. This experience shows to the students how the vision is working and which are the visual impairment."
 		},		
 		"CINEVR":
 		{
-			"id":1,
 			"name":"CINEVR",
-			"categorie":["development", "3D", "VR"],
+			"position": "Creative Technologist & VR developer",
+			"year": "currently working on it",
 			"last":"1 year",
 			"video":"",
 			"images":[],
@@ -105,9 +108,7 @@
 		},
 		"FnacPlay VR":
 		{
-			"id":1,
 			"name":"FnacPlay VR",
-			"categorie":["development", "3D", "VR"],
 			"last":"1 months",
 			"video":"",
 			"images":[],
