@@ -7,7 +7,7 @@
 			"year": "2013",
 			"last":"4 months",
 			"video":"./videos/Imac Tower Defense.mp4",
-			"images":[],
+			"images":["./images/work/cinevr.png"],
 			"tags":[
 				"Gameplay",
 				"UI",
@@ -25,7 +25,7 @@
 			"last":"3 months",
 			"size":"medium",
 			"video":"./videos/Oeil de Lynx.mp4",
-			"images":[],
+			"images":["./images/work/cinevr.png"],
 			"tags":[
 				"Gameplay",
 				"2D Animations",
@@ -41,7 +41,7 @@
 			"position": "Gameplay & Engine developer",
 			"year": "2015",
 			"last":"6 months",
-			"images":[],
+			"images":["./images/work/cinevr.png"],
 			"tags":[
 				"Gameplay",
 				"Engine",
@@ -75,7 +75,7 @@
 			"year": "2015/2016",
 			"last":"4 months",
 			"video":"./videos/Inseyed.mp4",
-			"images":[],
+			"images":["./images/work/cinevr.png"],
 			"tags":[
 				"AR",
 				"Unity5",
@@ -111,7 +111,7 @@
 			"name":"FnacPlay VR",
 			"last":"1 months",
 			"video":"",
-			"images":[],
+			"images":["./images/work/cinevr.png"],
 			"tags":[
 				"VR",
 				"Unity5",

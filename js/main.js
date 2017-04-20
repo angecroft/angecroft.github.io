@@ -16,8 +16,8 @@ function loadProjects(){
 	        	});
 	        	work += element.size+'"';
 				work += '<a class="info" name="'+element.name+'" href="#/project/'+key+'">';
-				work += '<h3>'+element.name+'</h3>';
 				work += '<img src="'+element.images[0]+'">';
+				work += '<h3>'+element.name+'</h3>';
 				work += '<p>'+element.desc+'</p>'
 				work += '</a>';
 				work += '</article>';

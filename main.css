@@ -20,7 +20,7 @@
 
 #me h1 {
   padding: 0;
-  font-size: 7em;
+  font-size: 8em;
 }
 
 #me p {
@@ -38,8 +38,18 @@
 #work {
   background-color: #E0B59D;
 }
+
 #work img {
-  width: 50%
+  width: 100%;
+  padding-bottom: 2%;
+}
+
+#work h3 {
+  padding: 0 2%;
+}
+
+#work p {
+  padding: 1% 2%;
 }
 
 #personnal_work {
@@ -70,16 +80,17 @@ h1, h2, h3, h4 {
 
 h2 {
   padding-top: 1ex;
-  font-size: 3em;
+  font-size: 3.5em;
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 2em;
 }
 
 p {
   margin: 0;
   padding: 0.5em 0;
+  font-family: sans-serif;
 }
 
 a{
@@ -91,6 +102,15 @@ body {
   height: auto;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: metafor;
   background-color: #f4f4f4;
+}
+
+article {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+@font-face {
+    font-family: metafor;
+    src: url(./fonts/metafor.ttf);
 }
