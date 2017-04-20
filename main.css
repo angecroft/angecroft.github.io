@@ -38,6 +38,9 @@
 #work {
   background-color: #E0B59D;
 }
+#work img {
+  width: 50%
+}
 
 #personnal_work {
   background-color: #CE877B;
