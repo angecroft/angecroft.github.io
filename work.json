@@ -93,7 +93,7 @@
 			"year": "currently working on it",
 			"last":"1 year",
 			"video":"",
-			"images":[],
+			"images":["./images/work/cinevr.png"],
 			"tags":[
 				"VR",
 				"Unity5",
