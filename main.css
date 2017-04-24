@@ -91,7 +91,8 @@ h2 {
   font-size: 6em;
   display: table; 
   line-height: 0.8;
-  margin: 1ex 0;
+  margin-bottom: 0.5ex;
+  margin-top: 1ex;
 }
 
 
