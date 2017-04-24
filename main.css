@@ -39,10 +39,6 @@
   /*background-color: #E0B59D;*/
 }
 
-#work article:hover {
-    background-color: #E0B59D;
-}
-
 #work img {
   width: 100%;
   padding-bottom: 2%;
@@ -114,6 +110,9 @@ body {
 article {
     background-color: white;
     margin-bottom: 2%;
+    position: relative;
+    float: left;
+    width: 50%;
 }
 
 @font-face {
