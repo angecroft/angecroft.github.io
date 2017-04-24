@@ -44,7 +44,7 @@
   padding-bottom: 2%;
 }
 
-#work h3 {
+/*#work h3 {
   padding: 0 5%;
 }
 
@@ -52,7 +52,7 @@
   padding-bottom: 5%;
   padding-left: 5%;
   padding-right: 5%;
-}
+}*/
 
 #personnal_work {
   /*background-color: #CE877B;*/
@@ -119,6 +119,12 @@ article {
     width: 48%;
     margin: 1%;
     cursor: pointer;
+}
+
+.article-legend {
+  height: 15%;
+  padding: 2% 5%;
+  padding-bottom: 5%;
 }
 
 @font-face {

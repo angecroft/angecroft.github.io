@@ -17,13 +17,16 @@ function loadProjects(){
 	        	work += element.size+'"';
 				work += '<a class="info" name="'+element.name+'" href="#/project/'+key+'">';
 				work += '<img src="'+element.images[0]+'">';
+				work += 'div class="article-legend">'
 				work += '<h3>'+element.name+'</h3>';
 				work += '<p>'+element.desc+'</p>'
+				work += '</div>';
 				work += '</a>';
 				work += '</article>';
 	    		$("#work > .center_block").prepend(work);
 	        });
 			$("#work > .center_block").prepend('<h2>Work</h2>');
+			$("#work > .center_block").append('<div class="clear"></div>');
 
 	        dfd.resolve(data);
 	    },
