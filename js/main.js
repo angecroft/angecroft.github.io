@@ -17,7 +17,7 @@ function loadProjects(){
 	        	work += element.size+'"';
 				work += '<a class="info" name="'+element.name+'" href="#/project/'+key+'">';
 				work += '<img src="'+element.images[0]+'">';
-				work += 'div class="article-legend">'
+				work += '<div class="article-legend">'
 				work += '<h3>'+element.name+'</h3>';
 				work += '<p>'+element.desc+'</p>'
 				work += '</div>';
