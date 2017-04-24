@@ -32,7 +32,8 @@
 /*******************/
 
 #about .border-title{
-  border-color: #F5D2A0;
+  border-bottom: solid 10px #F5D2A0;
+  padding-bottom: 10px;
 }
 
 #work img {
@@ -49,12 +50,15 @@
 }
 
 #work .border-title{
-  border-color: #E0B59D;
+  border-bottom: solid 10px #E0B59D;
+  padding-bottom: 10px;
 }
 
 
-#personnal_work {
+#personnal_work .border-title {
   /*background-color: #CE877B;*/
+  border-bottom: solid 10px #CE877B;
+  padding-bottom: 10px;
 }
 
 footer {
@@ -85,23 +89,9 @@ h1, h2, h3, h4 {
 
 h2 {
   font-size: 6em;
-  border-width: 0 0 12px;
-  border-style: solid;
-  display: inline; 
-}
-
-
-/*  Stop the heading from being inline and give it some margin. */
-h2:before {
-  padding-top: 1ex;
-  content: " ";
-  display:block;
-}
-
-h2:after {
-  padding-bottom: 1ex;
-  content: " ";
-  display:block;
+  display: table; 
+  line-height: 0.8;
+  margin: 1ex 0;
 }
 
 
