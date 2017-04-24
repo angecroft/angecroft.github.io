@@ -21,6 +21,7 @@ function loadProjects(){
 				work += '<h3>'+element.name+'</h3>';
 				work += '<p>'+element.desc+'</p>'
 				work += '</div>';
+				work += '<hr>';
 				work += '</a>';
 				work += '</article>';
 	    		$("#work > .center_block").prepend(work);

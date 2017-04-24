@@ -44,15 +44,13 @@
   padding-bottom: 2%;
 }
 
-/*#work h3 {
-  padding: 0 5%;
+#work hr {
+  background-color: #E0B59D;
+  margin: 0;
+  padding: 0;
+  height: 1%;
+  border: none;
 }
-
-#work p {
-  padding-bottom: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-}*/
 
 #personnal_work {
   /*background-color: #CE877B;*/
