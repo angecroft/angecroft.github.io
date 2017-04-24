@@ -26,7 +26,7 @@ function loadProjects(){
 				work += '</article>';
 	    		$("#work > .center_block").prepend(work);
 	        });
-			$("#work > .center_block").prepend('<h2>Work</h2>');
+			$("#work > .center_block").prepend('<h2 class="border-title">Work</h2>');
 			$("#work > .center_block").append('<div class="clear"></div>');
 
 	        dfd.resolve(data);

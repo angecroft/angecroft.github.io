@@ -31,12 +31,8 @@
 /** About section **/
 /*******************/
 
-#about {
-  /*background-color: #F5D2A0;*/
-}
-
-#work {
-  /*background-color: #E0B59D;*/
+#about .border-title{
+  border-color: #F5D2A0;
 }
 
 #work img {
@@ -51,6 +47,11 @@
   height: 1%;
   border: none;
 }
+
+#work .border-title{
+  border-color: #E0B59D;
+}
+
 
 #personnal_work {
   /*background-color: #CE877B;*/
@@ -83,9 +84,26 @@ h1, h2, h3, h4 {
 }
 
 h2 {
-  padding-top: 1ex;
   font-size: 6em;
+  border-width: 0 0 12px;
+  border-style: solid;
+  display: inline; 
 }
+
+
+/*  Stop the heading from being inline and give it some margin. */
+h2:before {
+  padding-top: 1ex;
+  content: " ";
+  display:block;
+}
+
+h2:after {
+  padding-bottom: 1ex;
+  content: " ";
+  display:block;
+}
+
 
 h3 {
   font-size: 4em;
