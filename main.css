@@ -98,13 +98,15 @@ h2 {
 
 h3 {
   font-size: 2em;
+  padding-bottom: 0.2em;
 }
 
 p {
   margin: 0;
   padding: 0.5em 0;
   font-family: lato;
-  font-size: 1.2em;
+  font-size: 1em;
+  line-height: 1.4em;
 }
 
 a{
@@ -129,7 +131,7 @@ article {
 }
 
 .article-legend {
-  height: 15%;
+  height: 12%;
   padding: 2% 5%;
   padding-bottom: 5%;
 }
