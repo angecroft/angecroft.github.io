@@ -27,6 +27,10 @@
   font-size: 4em;
 }
 
+#me .highlight {
+    background-color: #97D2D1;
+}
+
 /*******************/
 /** About section **/
 /*******************/
@@ -35,6 +39,24 @@
   border-bottom: solid 10px #F5D2A0;
   padding-bottom: 10px;
 }
+
+
+#about .highlight {
+    background-color: #F5D2A0;
+}
+
+#about a {
+  text-decoration: none;
+}
+
+#about a:hover {
+  background-color: #e8e8e4;
+  text-decoration: underline #F5D2A0;
+}
+
+/*******************/
+/** Work  section **/
+/*******************/
 
 #work img {
   width: 100%;
