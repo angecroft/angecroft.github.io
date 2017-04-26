@@ -105,17 +105,30 @@
 
 
 #about .highlight {
-    background-color: #F5D2A0;
-}
-
-#about a {
+  position: relative;
   text-decoration: none;
+  display: inline-block;
+  color: black;
+  padding: 0 2px;
+  transition: color ease 0.3s;
 }
 
-#about a:hover {
-  background-color: #e8e8e4;
-  text-decoration: underline #F5D2A0;
-}
+#about .highlight::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: #F5D2A0;
+    transition: all ease 0.3s;
+  }
+
+  #about a.highlight:hover::before {
+    height: 10%;
+  }
+
 
 /*******************/
 /** Work  section **/
