@@ -76,6 +76,10 @@
   padding-bottom: 10px;
 }
 
+#work article:hover {
+    background-color: #E0B59D;
+}
+
 
 #personnal_work .border-title {
   /*background-color: #CE877B;*/
