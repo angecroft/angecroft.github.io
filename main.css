@@ -167,7 +167,11 @@ footer {
   background-color: #F6847C;
 }
 
-footer .grid-Footer .u-cf {
+footer article{
+  background-color: #F6847C;
+}
+
+.grid-Footer.u-cf {
   display: none !important;
 }
 
