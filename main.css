@@ -167,6 +167,10 @@ footer {
   background-color: #F6847C;
 }
 
+footer .grid-Footer .u-cf {
+  display: none !important;
+}
+
 /******************/
 /** Global rules **/
 /******************/
