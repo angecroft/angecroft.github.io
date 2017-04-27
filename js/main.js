@@ -10,12 +10,12 @@ function loadProjects(){
 			$(".load").hide();
 	        $.each(data.works, function(key, element){
 	        	// console.log(element);
-	        	var work = '<article id="'+key+'" class="work ';
+	        	var work = '<article id="'+key+'" class="work >';
 	        	$.each(element.categorie, function(i, categ){
 	        		work += categ+' '; 
 	        	});
 	        	work += element.size+'"';
-				work += '<a class="info" name="'+element.name+'" href="#/project/'+key+'">';
+				work += '<a class="info" name="'+element.name+'" href="./work/'+key+'.html">';
 				work += '<img src="'+element.images[0]+'">';
 				work += '<div class="article-legend">'
 				work += '<h3>'+element.name+'</h3>';
