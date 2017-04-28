@@ -2,6 +2,7 @@
 	"works":{
 		"IMAC Tower Defense":
 		{
+			"id": "itd",
 			"name":"IMAC Tower Defense",
 			"position":"Gameplay & UI Developer",
 			"year": "2013",
@@ -19,6 +20,7 @@
 		},		
 		"Oeil de Lynx":
 		{
+			"id": "odl",
 			"name":"Oeil de Lynx",
 			"position": "Unity Gameplay Developer",
 			"year": "2014",
@@ -37,6 +39,7 @@
 		},		
 		"Detroit":
 		{
+			"id": "det",
 			"name":"Detroit",
 			"position": "Gameplay & Engine developer",
 			"year": "2015",
@@ -70,6 +73,7 @@
 		},		
 		"InsEyed":
 		{
+			"id": "ins",
 			"name":"InsEyed",
 			"position": "Unity Developer",
 			"year": "2015/2016",
@@ -88,6 +92,7 @@
 		},		
 		"CINEVR":
 		{
+			"id": "cvr",
 			"name":"CINEVR",
 			"position": "Creative Technologist & VR developer",
 			"year": "currently working on it",
@@ -108,6 +113,7 @@
 		},
 		"FnacPlay VR":
 		{
+			"id": "fp",
 			"name":"FnacPlay VR",
 			"last":"1 months",
 			"video":"",

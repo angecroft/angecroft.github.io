@@ -36,23 +36,5 @@ function loadProjects(){
 }
 
 $(document).ready(function() {
-	///////////////////////
-	/* Load project.json */
-	///////////////////////
 	loadProjects();
-
-	/////////////////
-	/* Back to top */
-	/////////////////
-	$(window).scroll(function() {
-		if($(window).scrollTop() > 100) {	
-			$("#backToTop").fadeIn(250);
-		} else {	
-			$("#backToTop").fadeOut(250);
-		}
-	});
-	$('#backToTop').click(function(event) {
-        $('html, body').animate({scrollTop : 0}, 'slow');
-        event.preventDefault();
-    });
 });
