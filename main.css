@@ -20,7 +20,7 @@
 
 #me h1 {
   padding: 0;
-  font-size: 8em;
+  font-size: 7.5em;
 }
 
 #me p {
@@ -29,69 +29,6 @@
 
 #me .highlight {
     background-color: #97D2D1;
-}
-
-#chevron-anim
-{
-  width: 1px;
-  margin: auto;
-}
-
-.chevron {
-  position: absolute;
-  width: 28px;
-  height: 8px;
-  opacity: 0;
-  transform: scale3d(0.5, 0.5, 0.5);
-  animation: move 3s ease-out infinite;
-}
-
-.chevron:first-child {
-  animation: move 3s ease-out 1s infinite;
-}
-
-.chevron:nth-child(2) {
-  animation: move 3s ease-out 2s infinite;
-}
-
-.chevron:before,
-.chevron:after {
-  content: ' ';
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 51%;
-  background: #fff;
-}
-
-.chevron:before {
-  left: 0;
-  transform: skew(0deg, 30deg);
-}
-
-.chevron:after {
-  right: 0;
-  width: 50%;
-  transform: skew(0deg, -30deg);
-}
-
-@keyframes move {
-  25% {
-    opacity: 1;
-
-  }
-  33% {
-    opacity: 1;
-    transform: translateY(30px);
-  }
-  67% {
-    opacity: 1;
-    transform: translateY(40px);
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
-  }
 }
 
 /*******************/
@@ -104,7 +41,7 @@
 }
 
 
-#about .highlight {
+#about .underlign {
   position: relative;
   text-decoration: none;
   display: inline-block;
@@ -113,20 +50,25 @@
   transition: color ease 0.3s;
 }
 
-#about .highlight::before {
+#about .underlign::before {
     content: '';
     position: absolute;
     z-index: -1;
     width: 100%;
-    height: 100%;
+    height: 10%;
     left: 0;
     bottom: 0;
     background-color: #F5D2A0;
     transition: all ease 0.3s;
   }
 
-  #about a.highlight:hover::before {
-    height: 10%;
+  #about a.underlign:hover::before {
+    height: 100%;
+  }
+
+  .about-block {
+    float: left;
+    width: 65%;
   }
 
 
@@ -244,21 +186,6 @@ article {
   height: 12%;
   padding: 2% 5%;
   padding-bottom: 5%;
-}
-
-@font-face {
-    font-family: metafor;
-    src: url(./fonts/metafor.ttf);
-}
-
-@font-face {
-  font-family: bitter;
-  src: url(./fonts/Bitter-Regular.ttf)
-}
-
-@font-face {
-  font-family: raleway;
-  src: url(./fonts/Raleway-Regular.ttf);
 }
 
 @font-face {
