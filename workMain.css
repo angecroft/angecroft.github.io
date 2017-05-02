@@ -8,11 +8,11 @@
     position:  absolute;
     margin: auto;
     width: 100%;
-    z-index: -1;
+    z-index: -2;
 }
 
 #blur {
-  z-index: -2;
+  z-index: -3;
   filter: blur(10px);
   position: absolute;
   width: 100%;
@@ -21,7 +21,8 @@
 
 #desc article {
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.85);
+    z-index: 1;
     bottom: 0;
     right: 0;
     width: 48%;
@@ -35,19 +36,64 @@
   border: none;
 }
 
-#desc h2 {
-  padding-top: 5%;
-  padding-left: 5%;
+#desc h3 {
+  padding-top: 4%;
+  padding-left: 7%;
+  padding-bottom: 2%;
 }
 
 #desc ul {
-   padding: 0 5%;
+   padding: 0 7%;
+   padding-bottom: 2%;
+   margin: 0;
+}
+
+#desc li.tag {
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  background-color: #E0B59D;
+  margin-right: 0.4em;
+  color: white;
+}
+
+#desc li.link {
+  display: inline-block;
+  margin-right: 0.4em;
+  font-family: lato;
+  font-size: 1em;
+  line-height: 1.4em;
 }
 
 
 #desc p {
-   padding: 0 5%;
+   padding: 0 7%;
+   padding-bottom: 2%;
 }
+
+#desc .underlign {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  padding: 0 2px;
+  transition: color ease 0.3s;
+}
+
+#desc .underlign::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 10%;
+    left: 0;
+    bottom: 0;
+    background-color: #E0B59D;
+    transition: all ease 0.3s;
+  }
+
+  #desc a.underlign:hover::before {
+    height: 100%;
+  }
 
 /*******************/
 /** About section **/
