@@ -2,21 +2,21 @@
   width: 100%;
   height: 100vh;
   position: relative;
+  background-color: black;
+  overflow: hidden;  
 }
 
 #video {
     position:  absolute;
     margin: auto;
     width: 100%;
-    z-index: -2;
 }
 
 #blur {
-  z-index: -3;
   filter: blur(10px);
   position: absolute;
   width: 100%;
-  height: auto;
+  height: auto;  
 }
 
 #desc article {
@@ -95,40 +95,28 @@
     height: 100%;
   }
 
-/*******************/
-/** About section **/
-/*******************/
+/******************/
+/**    Images    **/
+/******************/
 
-#about .border-title{
-  border-bottom: solid 10px #F5D2A0;
-  padding-bottom: 10px;
+article {
+    background-color: white;
+    float: left;
+    width: 48%;
+    margin: 1%;
 }
 
-
-#about .highlight {
-  position: relative;
-  text-decoration: none;
-  display: inline-block;
-  color: black;
-  padding: 0 2px;
-  transition: color ease 0.3s;
+#more-images img {
+  width: 100%;
 }
 
-#about .highlight::before {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    bottom: 0;
-    background-color: #F5D2A0;
-    transition: all ease 0.3s;
-  }
-
-  #about a.highlight:hover::before {
-    height: 10%;
-  }
+#more-images hr {
+  background-color: #E0B59D;
+  margin: 0;
+  padding: 0;
+  height: 1%;
+  border: none;
+}
 
 
 footer {
@@ -142,7 +130,7 @@ footer {
 div.center_block {
   max-width: 75vw;
   min-width: 65vw;
-  margin: auto;
+  margin: auto ;
 }
 
 div.border {
@@ -172,7 +160,6 @@ h3 {
 
 p {
   margin: 0;
-  padding: 0.5em 0;
   font-family: lato;
   font-size: 1em;
   line-height: 1.4em;
@@ -196,9 +183,8 @@ body {
 }
 
 .article-legend {
-  height: 12%;
-  padding: 2% 5%;
-  padding-bottom: 5%;
+  height: 5%;
+  padding: 2% 3%;
 }
 
 @font-face {
