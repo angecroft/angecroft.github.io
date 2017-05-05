@@ -106,16 +106,27 @@
 }
 
 footer {
-  background-color: #F6847C;
+  background-color: #53807F;
+}
+
+footer h3 {
+    padding: 1em;
+    text-align: center;
+    margin: 1em auto;
+    color:  white;
+    border: solid;
+    display: table;
+}
+
+footer .center_block {
+  margin: 1em auto;
+  padding: 1em;
 }
 
 footer article{
-  background-color: #F6847C;
+  background-color: #53807F;
 }
 
-.grid-Widget-footer {
-  display: none !important;
-}
 
 /******************/
 /** Global rules **/
