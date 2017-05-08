@@ -35,6 +35,10 @@
 /** About section **/
 /*******************/
 
+#about {
+  padding-top: 3%;
+}
+
 #about .border-title{
   border-bottom: solid 10px #F5D2A0;
   padding-bottom: 10px;
@@ -68,13 +72,17 @@
 
   .about-block {
     float: left;
-    width: 65%;
+    width: 55%;
   }
 
 
 /*******************/
 /** Work  section **/
 /*******************/
+
+#work {
+  padding-top: 3%;
+}
 
 #work img {
   width: 100%;
@@ -106,7 +114,7 @@
 }
 
 footer {
-  background-color: #53807F;
+  background-color: #5E9391;
 }
 
 footer h3 {
@@ -124,7 +132,7 @@ footer .center_block {
 }
 
 footer article{
-  background-color: #53807F;
+  background-color: #5E9391;
 }
 
 
