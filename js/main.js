@@ -11,7 +11,7 @@ function loadProjects(){
 	        $.each(data.works, function(key, element){
 	        	// console.log(element);
 	        	var work = '<article id="'+key+'" class="work" >';
-				work += '<a class="info" name="'+element.name+'" href="./work/CINEVR.html">';
+				work += '<a class="info" name="'+element.name+'" href="./work/'+element.href+'">';
 				work += '<img src="'+element.images[0]+'">';
 				work += '<div class="article-legend">'
 				work += '<h3>'+element.name+'</h3>';
