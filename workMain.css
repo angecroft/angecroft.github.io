@@ -10,8 +10,10 @@
     position:  absolute;
     margin: auto;
     width: 100%;
-    height: auto;
+    height: 100%;
     opacity: 0.5;
+    object-fit: cover;
+    background-size: 100% 100%;
 }
 
 #blur {
@@ -24,11 +26,17 @@
 #desc article {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.85);
-    z-index: 1;
     bottom: 0;
     right: 0;
     width: 48%;
     margin: 2%;
+    z-index: 1;
+}
+
+#desc #title {
+  padding-top: 4%;
+  padding-bottom: 2%;
+  padding-left: 7%;
 }
 
 #desc hr {
@@ -38,10 +46,8 @@
   border: none;
 }
 
-#desc h3 {
-  padding-top: 4%;
-  padding-left: 7%;
-  padding-bottom: 2%;
+#desc h2 {
+  display: inline;
 }
 
 #desc ul {
@@ -72,7 +78,11 @@
    padding-bottom: 2%;
 }
 
-#desc .underlign {
+/**************************/
+/**    Underlign link    **/
+/**************************/
+
+.underlign {
   position: relative;
   text-decoration: none;
   display: inline-block;
@@ -81,7 +91,7 @@
   transition: color ease 0.3s;
 }
 
-#desc .underlign::before {
+.underlign::before {
     content: '';
     position: absolute;
     z-index: -1;
@@ -93,7 +103,7 @@
     transition: all ease 0.3s;
   }
 
-  #desc a.underlign:hover::before {
+a.underlign:hover::before {
     height: 100%;
   }
 
@@ -102,10 +112,9 @@
 /******************/
 
 article {
-    background-color: white;
     float: left;
     width: 48%;
-    margin: 1%;
+    margin: 1%; 
 }
 
 #more-images {
@@ -125,9 +134,32 @@ article {
 }
 
 
+/*******************/
+/**     Footer    **/
+/*******************/
+
 footer {
-  background-color: #F6847C;
+  background-color: #5E9391;
 }
+
+footer h3 {
+    padding: 0.7em 0.9em;
+    text-align: center;
+    /*margin: 1em auto;*/
+    color:  white;
+    border: solid;
+    display: table;
+}
+
+footer .center_block {
+  margin: 1em auto;
+  padding: 1em;
+}
+
+footer article{
+  background-color: #5E9391;
+}
+
 
 /******************/
 /** Global rules **/
@@ -152,16 +184,13 @@ h1, h2, h3, h4 {
 }
 
 h2 {
-  font-size: 4em;
-  display: table; 
-  line-height: 0.8;
-  margin-bottom: 0.5ex;
+  font-size: 2em;
 }
 
-
 h3 {
-  font-size: 2em;
-  padding-bottom: 0.2em;
+  font-size: 1.5em;
+  display: inline;
+  padding-left: 1em;
 }
 
 p {
@@ -191,6 +220,7 @@ body {
 .article-legend {
   height: 5%;
   padding: 2% 3%;
+  background-color: white;
 }
 
 @font-face {
