@@ -4,7 +4,7 @@
 		{
 			"id": "itd",
 			"name":"IMAC Tower Defense",
-			"href":"IMAC-Tower-Defense.html",
+			"href":"imac-tower-defense.html",
 			"position":"Gameplay & UI Developer",
 			"year": "2013",
 			"last":"4 months",
@@ -23,7 +23,7 @@
 		{
 			"id": "odl",
 			"name":"Oeil de Lynx",
-			"href":"Oeil-de-Lynx.html",			
+			"href":"oeil-de-lynx.html",			
 			"position": "Unity Gameplay Developer",
 			"year": "2014",
 			"last":"3 months",
@@ -43,7 +43,7 @@
 		{
 			"id": "det",
 			"name":"Detroit",
-			"href":"Detroit.html",			
+			"href":"detroit.html",			
 			"position": "Gameplay & Engine developer",
 			"year": "2015",
 			"last":"6 months",
@@ -78,7 +78,7 @@
 		{
 			"id": "ins",
 			"name":"InsEyed",
-			"href":"Inseyed.html",			
+			"href":"inseyed.html",			
 			"position": "Unity Developer",
 			"year": "2015/2016",
 			"last":"4 months",
@@ -97,7 +97,7 @@
 		{
 			"id": "cvr",
 			"name":"CINEVR",
-			"href":"CINEVR.html",			
+			"href":"cinevr.html",			
 			"position": "Creative Technologist & VR developer",
 			"year": "currently working on it",
 			"last":"1 year",
@@ -119,7 +119,7 @@
 		{
 			"id": "fp",
 			"name":"FnacPLAY",
-			"href":"FnacPlay-VR.html",			
+			"href":"fnacplay.html",			
 			"last":"1 months",
 			"video":"",
 			"images":["./images/fnacplay2.png"],
