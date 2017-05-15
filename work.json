@@ -87,7 +87,6 @@
 			"tags":[
 				"AR",
 				"Unity5",
-				"C#",
 				"zSpace",
 				"UX Design"
 			],
@@ -116,10 +115,10 @@
 			"desc":"I am currently working on CINEVR, an experience which allows you to play videos in a virtual reality cinema.", 
 			"long_desc": "CINEVR is an experience which allows you to play videos in a virtual reality cinema. Development of the CINEVR application with Unity 5 (GearVR & Android cardboard). Realization of 3D and 2D assets in 3D Coat, Modo and Substance Painter. Implementation of a multiplayer network with Photon PUN."
 		},
-		"FnacPlay VR":
+		"FnacPLAY":
 		{
 			"id": "fp",
-			"name":"FnacPlay VR",
+			"name":"FnacPLAY",
 			"href":"FnacPlay-VR.html",			
 			"last":"1 months",
 			"video":"",
