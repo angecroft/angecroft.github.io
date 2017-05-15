@@ -75,15 +75,22 @@
     width: 55%;
   }
 
-  #logo {
+  #right-block {
     float: left;
-    width: 40%;
-    margin-left: 1%;
-    padding-top: 10%;
+    width: 30%;
+    margin-left: 10%;
   }
 
-  #logo img {
-    height: 10%;
+  #li-badge {
+    width: 330px;
+    background-color: white;
+  }
+
+ .logo{
+   width: 30px; 
+   float: left;
+   padding-right: 1%;
+   padding-top: 1%;
   }
 
 
@@ -128,11 +135,11 @@
 /**     Footer    **/
 /*******************/
 
-footer {
+#footer-page {
   background-color: #5E9391;
 }
 
-footer h3 {
+#footer-page h3 {
     padding: 0.7em 0.9em;
     text-align: center;
     /*margin: 1em auto;*/
@@ -141,12 +148,12 @@ footer h3 {
     display: table;
 }
 
-footer .center_block {
+#footer-page .center_block {
   margin: 1em auto;
   padding: 1em;
 }
 
-footer article{
+#footer-page article{
   background-color: #5E9391;
 }
 
@@ -189,7 +196,8 @@ h3 {
 
 p {
   margin: 0;
-  padding: 0.5em 0;
+  /*padding: 0.5em 0;*/
+  padding-bottom: 0.8em;
   font-family: lato;
   font-size: 1em;
   line-height: 1.4em;
