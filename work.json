@@ -47,7 +47,7 @@
 			"position": "Gameplay & Engine developer",
 			"year": "2015",
 			"last":"6 months",
-			"images":["./images/work/detroit.png"],
+			"images":["./images/index/detroit.png"],
 			"tags":[
 				"Gameplay",
 				"Engine",
@@ -83,7 +83,7 @@
 			"year": "2015/2016",
 			"last":"4 months",
 			"video":"./videos/inseyed.mp4",
-			"images":["./images/work/inseyed/index.png"],
+			"images":["./images/index/inseyed.png"],
 			"tags":[
 				"AR",
 				"Unity5",
@@ -102,7 +102,7 @@
 			"year": "currently working on it",
 			"last":"1 year",
 			"video":"",
-			"images":["./images/work/cinevr2.png"],
+			"images":["./images/index/cinevr.png"],
 			"tags":[
 				"VR",
 				"Unity5",
@@ -122,7 +122,7 @@
 			"href":"fnacplay.html",			
 			"last":"1 months",
 			"video":"",
-			"images":["./images/fnacplay2.png"],
+			"images":["./images/index/fnacplay.png"],
 			"tags":[
 				"VR",
 				"Unity5",
