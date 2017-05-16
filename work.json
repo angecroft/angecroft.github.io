@@ -82,7 +82,7 @@
 			"position": "Unity Developer",
 			"year": "2015/2016",
 			"last":"4 months",
-			"video":"./videos/Inseyed.mp4",
+			"video":"./videos/inseyed.mp4",
 			"images":["./images/work/inseyed/index.png"],
 			"tags":[
 				"AR",
@@ -90,7 +90,7 @@
 				"zSpace",
 				"UX Design"
 			],
-			"desc":"", 
+			"desc":"The main goal of this project is to understand the human eye with an interactive and immersive approach thanks to augmented reality.", 
 			"long_desc": "Application made with Unity 5 in Augmented Reality with the technology zSpace. On this project I have programmed in C# and also participated in the UX design. This experience shows to the students how the vision is working and which are the visual impairment."
 		},		
 		"CINEVR":
