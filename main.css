@@ -7,8 +7,11 @@
   height: 100vh;
   display: flex;
   text-align: center;
-  background-image: url(images/pont.svg);
-  background-size: 100%;
+  background: url(images/pont.svg) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-color: #97D2D1;
   color: white;
 }
