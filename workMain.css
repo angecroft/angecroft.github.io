@@ -100,9 +100,9 @@ a.underlign:hover::before {
     height: 100%;
   }
 
-/******************/
-/**    Images    **/
-/******************/
+/*************************/
+/**   Recommendation    **/
+/*************************/
 
 #recommendations {
   background-color: white;
@@ -128,10 +128,20 @@ a.underlign:hover::before {
   font-weight: bold;
 }
 
+/******************/
+/**    Images    **/
+/******************/
+
 article {
     float: left;
     width: 48%;
     margin: 1%; 
+}
+
+#solo {
+  width: 48%;
+  margin: auto;
+  float: none;
 }
 
 #more-images {
