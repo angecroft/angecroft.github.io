@@ -9,7 +9,7 @@
 			"year": "2013",
 			"last":"4 months",
 			"video":"./videos/Imac Tower Defense.mp4",
-			"images":["./images/work/cinevr.png"],
+			"images":["./images/index/itd.png"],
 			"tags":[
 				"Gameplay",
 				"UI",
@@ -29,14 +29,14 @@
 			"last":"3 months",
 			"size":"medium",
 			"video":"./videos/Oeil de Lynx.mp4",
-			"images":["./images/work/cinevr.png"],
+			"images":["./images/index/lynx.png"],
 			"tags":[
 				"Gameplay",
 				"2D Animations",
 				"Unity",
 				"C#"
 			],
-			"desc":"This game will be released at the attraction park Futuroscope. You have to spot the difference on a touch terminal.", 
+			"desc":"This game is available at the Futuroscope attraction park. You have to spot the difference on a touch terminal.", 
 			"long_desc": "Spot the differences is a game that I realized during my 3 months internship at Streetlab. It is released and available at the Futuroscope attraction park. The aim of this game is to sensitize people to the visually impaired. The player has only two minutes to spot the seven differences with a scotoma on the left image. I used Unity to make this game and it is compatible with Windows (on a computer) and some Android tablets. Within the technical pole of Streetlab, I realized my missions in great autonomy. I was in charge of the game development and the 2D animations."
 		},		
 		"Detroit":

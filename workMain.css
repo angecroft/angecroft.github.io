@@ -16,6 +16,23 @@
     background-size: 100% 100%;
 }
 
+#desc .button-back {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding: 1%;
+  margin: 2%;
+  background-color: rgba(255, 255, 255, 0.65);
+  font-family: lato;
+}
+
+
+#desc .button-back:hover {
+    background-color: #E0B59D;
+    transition: all ease-in 0.3s;
+}
+
 #desc article {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.85);
@@ -145,7 +162,8 @@ article {
 }
 
 #more-images {
-    padding-bottom: 4%;
+    /*padding-bottom: 4%;*/
+    margin: 4%;
 }
 
 #more-images img {

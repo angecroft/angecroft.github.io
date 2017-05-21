@@ -125,13 +125,39 @@
 
 #work article:hover {
     background-color: #E0B59D;
+    transition: all ease-in 0.3s;
 }
 
 
-#personnal_work .border-title {
-  /*background-color: #CE877B;*/
+/*******************/
+/** Personal  section **/
+/*******************/
+
+#personnal_work {
+  padding-top: 3%;
+}
+
+#personnal_work img {
+  width: 100%;
+  padding-bottom: 2%;
+}
+
+#personnal_work hr {
+  background-color: #CE877B;
+  margin: 0;
+  padding: 0;
+  height: 8px;
+  border: none;
+}
+
+#personnal_work .border-title{
   border-bottom: solid 10px #CE877B;
   padding-bottom: 10px;
+}
+
+#personnal_work article:hover {
+    background-color: #CE877B;
+    transition: all ease-in 0.3s;
 }
 
 /*******************/
