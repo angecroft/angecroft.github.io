@@ -5,20 +5,34 @@
 #me {
   width: 100%;
   height: 100vh;
-  display: flex;
-  text-align: center;
-  background: url(images/pont.svg) no-repeat center;
+  position: relative;
+  background-color: black;
+  overflow: hidden;  
+  /*background: url(images/pont.svg) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  background-color: #97D2D1;
+  background-size: cover;*/
   color: white;
+}
+
+#video {
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    object-fit: cover;
+    background-size: 100% 100%;
 }
 
 #me div.block_me {
   line-height: 1;
+  position: absolute;
   margin: auto;
+  text-align: center;
+  width: 100%;
+  bottom : 5%;
 }
 
 #me h1 {
